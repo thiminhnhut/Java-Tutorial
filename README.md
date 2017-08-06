@@ -8,7 +8,6 @@
 
 ## Nội dung hướng dẫn
 
-1. **Cài đặt ngôn ngữ và công cụ lập trình Java trên hệ điều hành Ubuntu 16.04**:
-[caidatjava.md](https://github.com/thiminhnhut/Java-Tutorial/blob/master/tutorials/caidatjava.md)
+1. [Cài đặt ngôn ngữ và công cụ lập trình Java trên hệ điều hành Ubuntu 16.04](https://github.com/thiminhnhut/Java-Tutorial/blob/master/tutorials/caidatjava.md)
 
 
