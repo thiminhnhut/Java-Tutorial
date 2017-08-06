@@ -14,18 +14,14 @@
 
 * Cập nhật lại danh sách các `package index` trên hệ điều hành:
 
-	```bash
-	
+	```bash	
 	$ sudo apt-get update
-	
 	```
 
 * Cài đặt JDK (phiên bản mặc định dành cho Ubuntu):
 
 	```bash
-
 	$ sudo apt-get install default-jdk
-
 	```
 	Với cách cài đặt này `JDK` (Java Development Kit) đã bao gồm cả 
 	`JRE` (Java Runtime Environment).
@@ -41,14 +37,11 @@
 	
 	+ Tìm địa chỉ của thư mục cài đặt `java` với lệnh:
 	
-		```bash
-		
+		```bash		
 		$ sudo update-alternatives --config java
 		
-		There is only one alternative in link group java (providing /usr/bin/java): /usr/lib/jvm/java-8-openjdk-i386/jre/bin/java
-		
-		Nothing to configure.
-		
+		There is only one alternative in link group java (providing /usr/bin/java): /usr/lib/jvm/java-8-openjdk-i386/jre/bin/java		
+		Nothing to configure.		
 		```
 		Ta được địa chỉ `/usr/lib/jvm/java-8-openjdk-i386/jre/bin/java`.
 		
@@ -58,7 +51,6 @@
 	
 			```bash
 			$ sudo nano /etc/environment		
-			
 			```
 		
 		- Thêm vào nội dung: `JAVA_HOME="/usr/lib/jvm/java-8-openjdk-i386/jre/bin/java"`
@@ -67,20 +59,16 @@
 	
 	+ Cập nhật lại các thay đổi mà không cần khởi động lại Terminal:
 	
-		```bash
-		
-		$ source /etc/environment
-		
+		```bash		
+		$ source /etc/environment		
 		```
 		
 	+ Xem lại biến môi trường `JAVA_HOME` được cài đặt:
 	
-		```bash
-		
+		```bash		
 		$ echo $JAVA_HOME
 				
-		/usr/lib/jvm/java-8-openjdk-i386/jre/bin/java
-		
+		/usr/lib/jvm/java-8-openjdk-i386/jre/bin/java		
 		```
 		
 		Nếu được kết quả tương tự như vậy thì quá trình cài đặt biến môi trường `JAVA_HOME`
