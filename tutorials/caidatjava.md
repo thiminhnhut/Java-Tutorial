@@ -55,7 +55,7 @@
 		
 		- Thêm vào nội dung: `JAVA_HOME="/usr/lib/jvm/java-8-openjdk-i386/jre/bin/java"`
 		
-		- Nhấn `Ctrl + X + Y` để lưu lại và thoát.
+		- Nhấn `Ctrl + X + Y` và `Enter` để lưu lại và thoát.
 	
 	+ Cập nhật lại các thay đổi mà không cần khởi động lại Terminal:
 	
