@@ -8,6 +8,8 @@
 
 * [Hướng dẫn cài đặt Java trên Ubuntu 16.04](http://www.codehub.vn/Huong-dan-cai-dat-Java-tren-Ubuntu-16-04)
 
+* [Cài đặt Jdk và Eclipse offline trên Ubuntu](https://nguyenvanquan7826.com/2013/08/27/java-ubuntu-cai-dat-jdk-va-eclipse-offline-tren-ubuntu/)
+
 ## Nội dung hướng dẫn
 
 ### Cài đặt JDK trên Ubuntu 16.04
